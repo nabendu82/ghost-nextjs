@@ -1,0 +1,39 @@
+.container {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.heading{
+  align-self: center;
+  font-family: "Arial Black", sans-serif;
+  font-size: 4.5em;
+  letter-spacing: -1px;
+  background-color: black;
+  color: white;
+  padding: 10px 10px;
+}
+
+.main {
+  display: flex;
+  margin-top: 50px;
+  align-items: center;
+  flex-direction: column;
+}
+
+.post {
+  width: 800px;
+  margin-bottom: 25px;
+  padding-bottom: 25px;
+  border-bottom: 1px solid black;
+}
+
+.post img {
+  width: 100%;
+}
+
+.post h1 {
+  font-size: 32px;
+  cursor: pointer;
+  text-align: center;
+}
